@@ -29,7 +29,6 @@ Tạo thư mục theo phiên bản Windows tương ứng, ví dụ:
 FOD/23H2/
 LangPack/23H2/
 ~~~
----
 ### 2. Required packages (recommended)
 Để tối ưu thời gian triển khai, chỉ cần sử dụng 2 file sau:
 ~~~
