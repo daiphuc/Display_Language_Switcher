@@ -8,16 +8,16 @@ Script tự động cài đặt Language Pack và Feature on Demand (FOD).
 ---
 ## Directory Structure
 Display_Language_Switcher/
-├── DisplayLanguageSwitcher.cmd        # Script chuyển đổi ngôn ngữ
-├── W10_11LangPack/                    # Tool tải gói ngôn ngữ
-├── FOD/                               # Feature on Demand (Basic language)
-│   ├── 22H2/
-│   ├── 23H2/
-│   └── ...
-└── LangPack/                          # Language Pack (UI / Speech / OCR ...)
-    ├── 22H2/
-    ├── 23H2/
-    └── ...
+|-- DisplayLanguageSwitcher.cmd        # Script chuyển đổi ngôn ngữ
+|-- W10_11LangPack/                    # Tool tải gói ngôn ngữ
+|-- FOD/                               # Feature on Demand (Basic language)
+|   |-- 22H2/
+|   |-- 23H2/
+|   `-- ...
+`-- LangPack/                          # Language Pack (UI / Speech / OCR ...)
+    |-- 22H2/
+    |-- 23H2/
+    `-- ...
 ---
 ## Usage
 ### 1. Download language packages
