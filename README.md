@@ -25,15 +25,19 @@ Display_Language_Switcher/
 ### 1. Download language packages
 Chạy script trong thư mục `W10_11LangPack` để tải gói ngôn ngữ.
 Tạo thư mục theo phiên bản Windows tương ứng, ví dụ:
+~~~
 FOD/23H2/
 LangPack/23H2/
+~~~
 ---
 ### 2. Required packages (recommended)
 Để tối ưu thời gian triển khai, chỉ cần sử dụng 2 file sau:
+~~~
 **FOD (Basic language):**
 Microsoft-Windows-LanguageFeatures-Basic-xxx-Package-xxx.cab
 **Language Pack (UI language):**
 Microsoft-Windows-Client-LanguagePack-Package_xxx.cab
+~~~
 Các gói ngôn ngữ khác (Speech, OCR, Handwriting, Text-to-Speech...)  
 có thể tải trực tiếp trong Windows Settings sau khi chuyển đổi ngôn ngữ.
 ---
