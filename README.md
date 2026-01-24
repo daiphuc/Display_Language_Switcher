@@ -7,7 +7,7 @@ Tool chuyển đổi ngôn ngữ Windows 11, hỗ trợ tất cả phiên bản:
 Script tự động cài đặt Language Pack và Feature on Demand (FOD).
 ---
 ## Directory Structure
-
+~~~
 Display_Language_Switcher/
 |-- DisplayLanguageSwitcher.cmd        # Script chuyển đổi ngôn ngữ
 |-- W10_11LangPack/                    # Tool tải gói ngôn ngữ
@@ -19,7 +19,7 @@ Display_Language_Switcher/
     |-- 22H2/
     |-- 23H2/
     `-- ...
-    
+~~~   
 ---
 ## Usage
 ### 1. Download language packages
