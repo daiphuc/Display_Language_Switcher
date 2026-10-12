@@ -32,6 +32,7 @@ if "%WINVER%"=="" (
 if /i "%WINVER%"=="23H2" set VERFOLDER=23H2
 if /i "%WINVER%"=="24H2" set VERFOLDER=24H2
 if /i "%WINVER%"=="25H2" set VERFOLDER=25H2
+if /i "%WINVER%"=="26H2" set VERFOLDER=26H2
 
 if not defined VERFOLDER (
  echo ERROR: Unsupported Windows version: %WINVER%
