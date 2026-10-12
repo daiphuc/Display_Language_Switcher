@@ -1,6 +1,6 @@
 #Requires -Version 5.1
 
-# Cumulative Update for Windows 11 Insider Preview (10.0.26100.1)
+# Security Update for Windows 11 (28000.1199)
 # Windows 11, version 22H2 (22621.1)
 # Windows 11 Insider Preview 10.0.22000.1 (co_release)
 # Cumulative Update for Windows 10 Version 2004 (19041.84) (2)
@@ -9,10 +9,10 @@
 
 $UUP_Table = ConvertFrom-Csv @'
     UpdateID,                              Version, Arch
-    082a33fb-8cb5-4cc6-abb3-611c3f7ecd35,  "W11 26H1", x64
-    950545af-8cd0-49ce-bc8c-789258edc8ba,  "W11 26H1", arm64
-    82bfaf56-2ef9-49ce-89fa-daa9c9eaff11,  "W11 24H2 & 25H2", x64
-    294aa40d-f466-4071-8654-d952a9a68ac1,  "W11 24H2 & 25H2", arm64
+    0e1cec91-9bb2-41ad-929f-fe36a5beda02,  "W11 26H1", x64
+    02242beb-9b26-4445-b9b8-978df2430b1c,  "W11 26H1", arm64
+    82bfaf56-2ef9-49ce-89fa-daa9c9eaff11,  "W11 24H2, 25H2 & 26H2", x64
+    294aa40d-f466-4071-8654-d952a9a68ac1,  "W11 24H2, 25H2 & 26H2", arm64
     356c1621-04e7-4e66-8928-03a687c3db73,  "W11 22H2 & 23H2", x64
     8c9cea2a-b4d5-49dd-82c4-f79bfac1108e,  "W11 22H2 & 23H2", arm64
     6cc7ea68-b7fb-4de1-bf9b-1f43c6218f6f,  "W11 21H2", x64
@@ -139,7 +139,7 @@ $objForm = New-Object System.Windows.Forms.Form
 $objForm.Size = New-Object System.Drawing.Size(750,420)
 $objForm.StartPosition = 'CenterScreen'
 $objForm.MaximizeBox = $false
-$objForm.Text = 'W10-11 Language Packs v2.10'
+$objForm.Text = 'W10-11 Language Packs v2.13'
 
 if ($PSVersionTable.PSVersion.Major -le 5) {
     $objForm.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon("$PSHOME\powershell.exe")
